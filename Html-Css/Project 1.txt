@@ -1,0 +1,14 @@
+You are going to create a simple 3 page website using only HTML and CSS. 
+The contents will be Home, About and Contact Page.
+Each page must have a Navigation Bar and a Footer, and then in the center the main content.
+
+the home page must contain 1 picture of any of your choosing, styled properly.
+it can be a background image, a styled forground image ext. There should be a title,
+a subtitle and a paragraph
+
+the about page should have a picture with yourself, a title, and text introducing yourself.
+
+The contact page must have a functional html form that communicates with a 3rd party
+service to send emails on submit.
+
+reference the PDF's below for help. Try to use as little reference to them as possible.

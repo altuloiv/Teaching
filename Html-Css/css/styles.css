@@ -1,0 +1,141 @@
+/*Add comments to ALL your css! This allows any developer to know exactly what code is doing what, this is best practice! */
+/* Reason being, is this allows any developer to quickly learn the code to better help them pick up where you left off */
+.nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.nav img {
+    height: 80px;
+    margin-left: 40%;
+}
+.nav * {
+    display: inline;
+    align-items: center;
+    text-align: center;
+}
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.links li {
+    margin: 20px;
+}
+.links li a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.6s;
+}
+.links li a:hover {
+    color: aqua;
+    font-size: 20px;
+    font-size-adjust: 5px;
+}
+body {
+    background-color: lightskyblue;
+}
+.content-container {
+    margin-top: 7%;
+    margin-bottom: 120px;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 80px;
+    border-radius: 30%;
+    border: 5px solid black;
+    background-color: #09f;
+}
+.content-form {
+    margin-top: 7%;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: block;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.605);
+    border: 5px solid black;
+}
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #002880;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.feedback-input:focus { border:5px solid #009dff; }
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+[type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#002880;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+}
+[type="submit"]:hover { background:#009dff; }
+
+.text-container h3 {
+    color: gray;
+}
+.content-container img {
+    margin-top: 3%;
+    padding: 5px;
+    height: 150px;
+    border-radius: 30%;
+    border: 3px solid black;
+    margin-right: 3%;
+    background-color: white;
+}
+footer {
+    color: white;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer-title {
+    margin-left: 2%;
+}
+.footer-title h3 {
+    margin-top: 3%;
+    padding-top: 3%;
+    display: flex;
+}
+.footer-info {
+    display: flex;
+}
+.footer-info p {
+    margin-left: 2%;
+}
